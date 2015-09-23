@@ -1,0 +1,25 @@
+{
+  "name": "mapchat",
+  "version": "1.0.0",
+  "description": "chat on a map",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexfig/2015-08-mvp.git"
+  },
+  "author": "Alex Figueroa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexfig/2015-08-mvp/issues"
+  },
+  "homepage": "https://github.com/alexfig/2015-08-mvp#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "morgan": "^1.6.1",
+    "socket.io": "^1.3.7"
+  }
+}
